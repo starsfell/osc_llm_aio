@@ -1,0 +1,10 @@
+langchain==0.1.12 # conda install -c conda-forge
+transformers==4.38.2 # conda install -c conda-forge
+pytorch==2.2.1 # conda install -c conda-forge [for transformers]
+
+einops==0.7.0 # conda install -c conda-forge [for Qwen]
+transformers_stream_generator==0.0.5 # pip installf [or Qwen]
+tiktoken==0.5.2 # conda install -c conda-forge [for Qwen]
+
+langchain_openai==0.0.8 # pip installf [for OpenAI API]
+openai==1.14.0 # pip installf [for OpenAI API]
